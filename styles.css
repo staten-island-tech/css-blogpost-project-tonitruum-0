@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
 body {
     background-color: rgb(0, 0, 0);
 }
@@ -5,14 +8,17 @@ body {
 h1 {
     color: blueviolet;
     text-align: center;
-    border: 3px purple;
-
+    font-size: 55px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
 }
 
 p {
     font-size: 30px;
     color: white;
     text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
 }
 
 span#country {
@@ -20,4 +26,11 @@ span#country {
     background-color: aqua;
     color: black;
     border-radius: 7.5px 7.5px 7.5px 7.5px;
+}
+
+p.post {
+    
+    height: 50%;
+    width: 50%;
+    background-color: bisque;
 }
