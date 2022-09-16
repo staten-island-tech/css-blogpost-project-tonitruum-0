@@ -3,6 +3,7 @@
 
 body {
     background-color: rgb(0, 0, 0);
+    padding: 0% 15%;
 }
 
 h1 {
@@ -19,18 +20,20 @@ p {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
+    word-wrap: break-word;
+    padding: 5px;
 }
 
-span#country {
+span.country {
     border: 1px solid rgb(0, 247, 255);
     background-color: aqua;
     color: black;
-    border-radius: 7.5px 7.5px 7.5px 7.5px;
+    border-radius: 7.5px;
 }
 
-p.post {
+div.post {
     
-    height: 50%;
-    width: 50%;
-    background-color: bisque;
+    border-radius: 20px;
+    padding: 10px 10px;
+    background-color: rgb(131, 131, 131);
 }
