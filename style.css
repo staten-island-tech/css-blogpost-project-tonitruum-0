@@ -1,0 +1,344 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+
+body {
+  background-color: #1b1b1b;
+  text-align: center;
+}
+
+body,
+html {
+  height: 100%;
+  font-family: "Montserrat", sans-serif;
+  padding: 0% 15%;
+}
+
+h1 {
+  color: blueviolet;
+  text-align: center;
+  font-size: 55px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+p {
+  font-size: 17px;
+  color: white;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  word-wrap: break-word;
+  padding: 5px;
+}
+
+p.swtxt {
+  text-align: justify;
+  font-size: 131%;
+}
+
+p.paristxt {
+  text-align: justify;
+  font-size: 131%;
+}
+
+p.nwtxt {
+  text-align: justify;
+  font-size: 131%;
+}
+
+span.country {
+  background-color: rgba(225, 0, 0, .5);
+  color: white;
+  border-radius: 5px;
+  padding: 2;
+}
+span.country.sws {
+  background-color: rgba(225, 0, 0, .5);
+}
+
+span.country.prs {
+  background-color: rgba(255, 255, 0, .5);
+}
+
+div.post {
+  border-radius: 20px;
+  padding: 10px 10px;
+  background-color: rgb(131, 131, 131);
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+  font-weight: 700;
+}
+
+#swt {
+  color: red;
+}
+
+#prs {
+  color: yellow;
+}
+
+#nrw {
+  color: blue;
+}
+
+/* nav bar color */
+a {
+  display: block;
+  padding: 8px;
+  text-decoration: none;
+  background-color: black;
+}
+
+
+/* hover over nav bar  */
+a:hover {
+  background-color: grey;
+}
+
+/* switzerland image 1 */
+#sw1 {
+    width: 30%;
+    position: absolute;
+    bottom: 20;
+    left: 20;
+    
+}
+
+
+/* switzerland image 2 */
+#sw2 {
+  
+  position: absolute;
+  width: 30%;
+  right: 0;
+  top: 30;
+  
+  
+}
+
+#pr1 {
+  width: 30%;
+  position: absolute;
+  bottom: 20;
+  left: 20;
+  top: 20;
+  
+}
+
+#pr2 {
+  position: absolute;
+  width: 31%;
+  right: 0;
+  top: 30;
+  
+}
+
+#nw1 {
+  width: 40%;
+  position: absolute;
+  top: 20;
+  left: 20;
+  
+}
+
+#nw2 {
+  width: 24%;
+  position: absolute;
+  top: 20;
+  right: 20;
+  
+}
+
+#nw3 {
+  width: 25%;
+  position: absolute;
+  bottom: 20;
+  left: 20;
+  
+}
+
+/* switzerland text */
+#sw {
+    position: absolute;
+    font-size: 100;
+    margin-top: 0;
+    top: 0;
+}
+
+/* paris text */
+#pr {
+  position: absolute;
+  font-size: 100;
+  margin-top: 0;
+  top: 0;
+  right: 50%;
+  transform: translate(50%)
+}
+
+#nw {
+  position: absolute;
+  font-size: 100;
+  margin-top: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+p.title#prf {
+  position: absolute;
+  font-size: 90;
+  margin-bottom: 0;
+  bottom: 0;
+  right: 50%;
+  transform: translate(50%)
+}
+
+img.fs {
+    border: red solid 3px;
+}
+
+img.sc {
+    border: yellow solid 3px;
+}
+
+img.th {
+    border: blue solid 3px;
+}
+
+section {
+    width: 900px;
+    height: 540px;
+    /* border: red solid 1px; */
+    margin-top: 40;
+    padding: 10;
+    position: relative;
+}
+
+/* center placeholder */
+.placeholder {
+    width: 300px;
+    height: 180px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#swissflag {
+  width: 300px;
+  position: relative;
+  bottom: 20;
+}
+
+#frenchflag {
+  width: 300px;
+}
+
+div.textbox{
+  position: absolute;
+}
+
+div.textbox#swiss {
+  width: 30%;
+  height: 40%;
+  bottom: 170;
+  left: 20;
+}
+
+div.textbox#paris {
+  width: 30%;
+  height: 40%;
+  bottom: 150;
+  left: 20;
+}
+
+div.textbox#paris2 {
+  width: 30%;
+  height: 40%;
+  bottom: 150;
+  left: 20;
+}
+
+div.textbox#norway {
+  width: 27%;
+  height: 70%;
+  top: 35;
+  right: 260;
+}
+
+div.textbox#norway2 {
+  width: 68%;
+  height: 70%;
+  bottom: -210;
+  right: 20;
+}
+
+img#swissline {
+  width: 70%;
+  height: 80;
+  position: absolute;
+  top: 100;
+  right: 300;
+}
+
+img#parisline {
+  width: 35%;
+  position: absolute;
+  top: 110;
+  right: 300;
+}
+
+img#parisline2 {
+  width: 35%;
+  position: absolute;
+  bottom: 110;
+  right: 300;
+}
+
+img#norwayline {
+  width: 50%;
+  position: absolute;
+  left: 50%;
+  top: 65%;
+  transform: translate(-50%, -50%);
+}
+
+div.textbox#swiss2 {
+  width: 65%;
+  height: 40%;
+  bottom: -20;
+  left: 304;
+}
+
+a.readmore#swisslink {
+  left: 450;
+  color: red;
+}
+
+a.readmore#parislink {
+  color: yellow;
+}
+
+a.readmore#norwaylink {
+  color: blue;
+  width: 155;
+  left: 50;
+  bottom: 220;
+}
+
+a.readmore {
+  background-color: rgba(0, 0, 0, 0);
+  position: absolute;
+  bottom: 20;
+  font-size: 30;
+  text-decoration-line: underline;
+}

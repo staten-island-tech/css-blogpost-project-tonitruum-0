@@ -1,22 +1,74 @@
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>blogpost</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="modernizr.js"></script>
+    <script src="zoom.js"></script>
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
+  <body>
+    <div id="wrap">
+      
+      <div id="container">
+        <ul id="nav">
+          <li><a id="swt" href="#switzerland">Switzerland</a></li>
+          <li><a id="prs" href="#paris">Paris</a></li>
+          <li><a id="nrw" href="#norway">Norway</a></li>
+<!--           <li><a href="#italy">Italy</a></li>
+          <li><a href="#iceland">Iceland</a></li> -->
+        </ul>
+        <div id="content">
+          <section id="switzerland">
+            <p class="title" id="sw">Switzerland</p>
+            <img class="fs" id="sw1" src="switzerland.jpg" alt="Switzerland Picture">
+            <img class="fs" id="sw2" src="switzerland2.jpg" alt="Switzerland Picture">
+            <img class="line" id="swissline" src="underline.png" alt="decorative underline">
+            <div class="placeholder">
+              <img id="swissflag" src="swissflag.jpg" alt="swiss flag">
+            </div> 
+            <div class="textbox" id="swiss"><p class="swtxt"><span class="country sws">Switzerland</span> is a beautiful country and is a popular desitnation in the winter due to it's mountainous landscape and snowy city scenes.</p></div>
+            <div class="textbox" id="swiss2"><p class="swtxt"><span class="country sws">Switzerland</span> is bordered by Italy to the south, France to the west, Germany to the north and Austria and Liechtenstein to the east. It is geographically divided among the Swiss Plateau, the Alps and the Jura...</p></div>
+            <a href="#switzerland" class="readmore" id="swisslink">click to read more</a>
+          </section>
+          <section id="paris">
+            <div class="placeholder">
+              <img id="frenchflag" src="french flag.png" alt="french flag">
+            </div> 
+            <p class="title" id="pr">Paris</p>
+            <img class="sc" id="pr1" src="paris.jpg" alt="Paris Picture">
+            <img class="sc" id="pr2" src="paris2.jpg" alt="Paris Picture">
+            <div class="textbox" id="paris"><p class="paristxt">Since the 17th century, <span class="country prs">Paris</span> has been one of the world's major centres of finance, diplomacy, commerce, fashion, gastronomy, science, and arts, and has sometimes been referred to as the capital of the world or "the City of Light".</p></div>
+            <a href="#paris" class="readmore" id="parislink">click to read more</a>
+            <p class="title" id="prf">France</p>
+            <img class="line" id="parisline" src="underline.png" alt="decorative underline">
+            <img class="line" id="parisline2" src="underline.png" alt="decorative underline">
+          </section>
+          <section id="norway">
+            <p class="title" id="nw">Norway</p>
+            <img class="line" id="norwayline" src="underline.png" alt="decorative underline">
+            <img class="th" id="nw1" src="norway.jpg" alt="Norway Picture">
+            <img class="th" id="nw2" src="norway2.jpg" alt="Norway Picture">
+            <img class="th" id="nw3" src="norway3.jpg" alt="Norway Picture">
+            <a href="#norway" class="readmore" id="norwaylink">click to read more</a>
+            <div class="textbox" id="norway"><p class="nwtxt">The capital of <span class="country">Norway</span>, which is also officially called the <span class="country">Kingdom of Norway</span>,  is Oslo, which is also the largest city. </p></div>
+            <div class="textbox" id="norway2"><p class="nwtxt"><span class="country">Norway</span> is bordered by Finland and Russia to the northeast and the Skagerrak strait to the south, on the other side of which are Denmark and the United Kingdom. <span class="country">Norway</span> has an extensive coastline, facing the North Atlantic Ocean and the Barents Sea.</p></div>
+          </section>
+          <!-- <section id="italy">
+            <div class="placeholder"></div> 
+          </section>
 
-<body>
-    <div class="header">
-        <h1>Country Facts</h1>
-        <p>text text text <span class="country">text</span> text</p>
+
+          <section id="iceland">
+          </section> -->
+        </div>
+        <!-- #content -->
+      </div>
+      <!-- #container -->
     </div>
-    <div class="post" id="post1">
-        <p>test
-        </p>
-    </div>
-</body>
-
+    <!-- #wrap -->
+    <div id="scroller"></div>
+  </body>
 </html>
