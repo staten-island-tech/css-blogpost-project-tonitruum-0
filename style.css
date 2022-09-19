@@ -14,11 +14,15 @@ html {
 }
 
 h1 {
-  color: blueviolet;
+  color: white;
   text-align: center;
-  font-size: 55px;
+  font-size: 90px;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
+  padding: -10;
+  margin-top: 10;
+  margin-bottom: -40;
+  border: grey inset 10px;
 }
 
 p {
